@@ -61,10 +61,10 @@ in order to achieve a shorter path is lame, and package names may already be use
 *I didn't want it to clash with existing operating system conventions (so it can be reused when bundling applications for NodeJS).*
 > That rules out `~/` and `/`.
 
-**Why aren't I using `alias`es or the `modules` directory?**
+**Why not `resolve.alias`es or `resolve.modules`?**
 
-Using `alias` requires manual setup for every directory in your `rootPath` directory and results in confusion when `alias`es
+Using `resolve.alias` requires manual setup for every directory in your `rootPath` directory and results in confusion when `resolve.alias`es
 have been setup for some directories but not all of them.
 
-Using `module` clashes with the possible namespace of npm packages and results in confusion over whether the imported 
+Using `resolve.module` clashes with the possible namespace of npm packages and results in confusion over whether the imported 
 module is a npm package in `node_modules` or is a local module in your `rootPath` directory.

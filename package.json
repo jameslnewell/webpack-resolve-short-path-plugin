@@ -1,8 +1,8 @@
 {
   "name": "webpack-resolve-short-path-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "James Newell <james@digitaledgeit.com.au>",
-  "description": "A plugin for `enhanced-resolve` (Webpack v2) that resolves paths like `~module` to `<rootPath>/module` so you don't have to write relative paths like `../../../module`.",
+  "description": "A plugin for enhanced-resolve (Webpack v2) that resolves paths like ~module to <rootPath>/module so you don't have to write relative paths like ../../../module.",
   "keywords": [
     "webpack",
     "enhanced-resolve",

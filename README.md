@@ -68,3 +68,13 @@ have been setup for some directories but not all of them.
 
 Using `resolve.module` clashes with the possible namespace of npm packages and results in confusion over whether the imported 
 module is a npm package in `node_modules` or is a local module in your `rootPath` directory.
+
+## Change log
+
+### 1.0.1
+
+Remove backticks from `package.json` `description` so `npmjs.com` doesn't display `<code>`.
+
+### 1.0.0
+
+Initial release.

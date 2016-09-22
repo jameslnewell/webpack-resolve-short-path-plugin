@@ -1,0 +1,31 @@
+{
+  "name": "webpack-resolve-short-path-plugin",
+  "version": "1.0.0",
+  "author": "James Newell <james@digitaledgeit.com.au>",
+  "description": "Plugin for `enhanced-resolve` (Webpack v2) that resolves paths like `~module` to `<rootPath>/module` so you don't have to write relative paths like `../../../module`.",
+  "keywords": [
+    "webpack",
+    "enhanced-resolve",
+    "shorten",
+    "short",
+    "path",
+    "alias",
+    "resolve",
+    "plugin",
+    "webpack2",
+    "webpackv2"
+  ],
+  "main": "lib/index.js",
+  "repository": "jameslnewell/webpack-resolve-short-path-plugin",
+  "peerDependencies": {
+    "webpack": "^2.1.0-beta.25"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "npm run test"
+  },
+  "license": "MIT"
+}

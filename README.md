@@ -1,6 +1,6 @@
 # webpack-resolve-short-path-plugin
 
-Plugin for `enhanced-resolve` (Webpack v2) that resolves paths like `~module` to `<rootPath>/module` so you don't have 
+A plugin for `enhanced-resolve` (Webpack v2) that resolves paths like `~module` to `<rootPath>/module` so you don't have 
 to write relative paths like `../../../module`.
 
 ## Installation

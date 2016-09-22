@@ -31,9 +31,7 @@ Example:
 
 `actions/sendForm.js`
 ```js
-export default data => {
-  //...
-};
+export default function(recipient, subject, message) {};
 ```
 
 `components/ContactPage/ContactPage.jsx`

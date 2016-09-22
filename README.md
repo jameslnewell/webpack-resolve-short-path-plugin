@@ -1,6 +1,6 @@
 # webpack-resolve-short-path-plugin
 
-A plugin for `enhanced-resolve` (Webpack v2) that resolves paths like `~module` to `<rootPath>/module` so you don't have 
+A plugin for `enhanced-resolve` (Webpack v2) that resolves paths like `~module` to `%rootPath%/module` so you don't have 
 to write relative paths like `../../../module`.
 
 ## Installation
@@ -71,9 +71,14 @@ module is a npm package in `node_modules` or is a local module in your `rootPath
 
 ## Change log
 
+### 1.0.2
+
+Replace `<rootPath>` in `package.json` `description` so `npmjs.com` doesn't display nothing.
+
+
 ### 1.0.1
 
-Remove backticks from `package.json` `description` so `npmjs.com` doesn't display `<code>`.
+Remove backticks from `package.json` `description` so `npmjs.com` doesn't display `<code>`
 
 ### 1.0.0
 

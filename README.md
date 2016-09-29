@@ -71,6 +71,10 @@ module is a npm package in `node_modules` or is a local module in your `rootPath
 
 ## Change log
 
+### 1.0.4
+
+Change `peerDeps` to only require beta 21
+
 ### 1.0.3
 
 Fix wording in doco.
